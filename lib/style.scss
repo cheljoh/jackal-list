@@ -89,7 +89,7 @@ header {
   text-align: center;
 }
 
-.JackalList {
+.JackalLists {
   display: flex;
   height: 100vh;
   width: 100vw;
@@ -110,7 +110,7 @@ header {
   flex-grow: 7;
 }
 
-.CreateIdea {
+.CreateJackal {
   padding: 1em;
   margin: 5px;
 
@@ -120,17 +120,17 @@ header {
   @include box-shadow;
 }
 
-.CreateIdea-title, .CreateIdea-body {
+.CreateJackal-name, .CreateJackal-body {
   font-size: 1.2em;
 }
 
-.IdeasList {
+.JackalsList {
   margin-top: 2em;
   padding-top: 1em;
   border-top: 1px solid darken($sidebar-color, 10);
 }
 
-.IdeasListItem {
+.JackalListItem {
   padding: 1em;
   margin: 5px;
 
@@ -145,18 +145,18 @@ header {
   }
 }
 
-.IdeasListItem-title {
+.JackalsListItem-name {
   margin-bottom: 0.5em;
 
   font-weight: 400;
   font-size: 1.5em;
 }
 
-.IdeasListItem-body {
+.JackalsListItem-body {
   font-weight: 300;
 }
 
-.IdeasListItem-buttons {
+.JackalsListItem-buttons {
   margin: 1em 0;
   padding: 1em;
 
@@ -167,11 +167,11 @@ header {
   }
 }
 
-.ActiveIdea {
+.ActiveListItem {
   padding: 1em;
 }
 
-.ActiveIdea-title, .ActiveIdea-body {
+.ActiveListItem-name, .ActiveListItem-body {
   background-color: lighten($input-color, 10);
 
   transition: background-color 0.5s;
@@ -187,12 +187,12 @@ header {
   }
 }
 
-.ActiveIdea-title {
+.ActiveListItem-name {
   font-weight: 600;
   font-size: 2em;
 }
 
-.ActiveIdea-body {
+.ActiveListItem-body {
   font-size: 1.5em;
   min-height: 60vh;
 }
