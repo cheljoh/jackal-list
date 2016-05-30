@@ -89,7 +89,7 @@ header {
   text-align: center;
 }
 
-.JackalLists {
+.JackalList {
   display: flex;
   height: 100vh;
   width: 100vw;
@@ -120,17 +120,17 @@ header {
   @include box-shadow;
 }
 
-.CreateJackal-name, .CreateJackal-body {
+.CreateJackal-title, .CreateJackal-body {
   font-size: 1.2em;
 }
 
-.JackalsList {
+.IdeasList {
   margin-top: 2em;
   padding-top: 1em;
   border-top: 1px solid darken($sidebar-color, 10);
 }
 
-.JackalListItem {
+.JackalsListItem {
   padding: 1em;
   margin: 5px;
 
@@ -145,7 +145,7 @@ header {
   }
 }
 
-.JackalsListItem-name {
+.JackalsListItem-title {
   margin-bottom: 0.5em;
 
   font-weight: 400;
@@ -167,11 +167,11 @@ header {
   }
 }
 
-.ActiveListItem {
+.ActiveJackal {
   padding: 1em;
 }
 
-.ActiveListItem-name, .ActiveListItem-body {
+.ActiveJackal-title, .ActiveJackal-body {
   background-color: lighten($input-color, 10);
 
   transition: background-color 0.5s;
@@ -187,12 +187,12 @@ header {
   }
 }
 
-.ActiveListItem-name {
+.ActiveJackal-title {
   font-weight: 600;
   font-size: 2em;
 }
 
-.ActiveListItem-body {
+.ActiveJackal-body {
   font-size: 1.5em;
   min-height: 60vh;
 }

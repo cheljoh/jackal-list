@@ -82,5 +82,3 @@ To run tests in Node:
 ```js
 npm test
 ```
-require('./reset.css');
-  require('./style.scss');
