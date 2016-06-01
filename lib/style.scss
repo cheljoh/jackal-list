@@ -1,10 +1,10 @@
-$primary-color: rgb(146, 214, 222);
-$active-color: rgb(244, 220, 171);
-$input-color: lighten($primary-color, 15);
+$primary-color: #33CCFF;
+$active-color: #33CC99;
+$input-color: #FFF;
 $button-color: $primary-color;
 $sidebar-color: lighten($primary-color, 25);
-$create-idea-color: lighten($primary-color, 20);
-$idea-list-item-color: lighten($primary-color, 22);
+$create-idea-color: #99CCFF;
+$idea-list-item-color: #99CCFF;
 
 @mixin box-shadow {
   box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.4);
@@ -84,7 +84,7 @@ button, input[type="submit"], .button {
 header {
   margin-bottom: 1rem;
 
-  font-size: 3em;
+  font-size: 1em;
   font-weight: 300;
   text-align: center;
 }
@@ -195,4 +195,8 @@ header {
 .ActiveJackal-body {
   font-size: 1.5em;
   min-height: 60vh;
+}
+
+.JackalTitle{
+  font-size: 3em;
 }
